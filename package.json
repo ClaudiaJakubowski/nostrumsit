@@ -1,0 +1,51 @@
+{
+  "name": "nostrumsit",
+  "version": "1.0.0",
+  "description": "A type-safe pattern builder & route matching library written in TypeScript",
+  "keywords": [
+    "dolor",
+    "esse",
+    "commodi",
+    "ts",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/ClaudiaJakubowski/nostrumsit.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClaudiaJakubowski/nostrumsit.git"
+  },
+  "license": "MIT",
+  "author": "TayaTromp",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "module": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "codecov": "^3.8.1",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^27.0.5",
+    "jest-ts-tsx-resolver": "^1.0.0",
+    "np": "^7.5.0",
+    "prettier": "^2.3.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
